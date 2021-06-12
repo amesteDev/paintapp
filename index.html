@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div id="control">
+            <div id="colors">
+                <button id="blue">Blå</button>
+                <button id="red">Röd</button>
+                <button id="green">Grön</button>
+                <button id="black">Svart</button>
+                <button id="white">Sudda</button>
+            </div>
+            <div id="thickness">
+                Tjocklek: 
+                <select id="thick">
+                    <option value="5">1</option>
+                    <option value="10" selected>2</option>
+                    <option value="20">3</option>
+                    <option value="30">4</option>
+                </select>
+                <!--En slider för att ställa tjockleken på penseln-->
+            </div>
+            <div id="eraser">
+
+               
+                <button id="clear">Töm ytan</button>
+            </div>
+
+        </div>
+
+
+
+        <canvas id="drawcanvas"></canvas>
+    </div>
+
+    <script src="script/draw.js"></script>
+</body>
+
+</html>

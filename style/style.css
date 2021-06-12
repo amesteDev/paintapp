@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1024px;
+    display: grid;
+
+}
+
+#control{
+    margin-top: 2em;
+}
+
+button{
+    font-size: 2em;
+    margin: 10px;
+}
+
+#drawcanvas{
+    border: 4px solid black;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
