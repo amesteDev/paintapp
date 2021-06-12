@@ -1,0 +1,1 @@
+Simple drawing app using HTML5 canvas and some JS.
